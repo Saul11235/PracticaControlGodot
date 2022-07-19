@@ -1,8 +1,11 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Indice/Indice.gd" type="Script" id=1]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource( 1 )
 
 [node name="Panel" type="Panel" parent="."]
 anchor_right = 1.0
@@ -72,3 +75,5 @@ margin_bottom = 462.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "Ejemplo  004"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/GridContainer/E001" to="." method="_on_E001_pressed"]

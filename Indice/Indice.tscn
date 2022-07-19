@@ -77,3 +77,4 @@ size_flags_vertical = 3
 text = "Ejemplo  004"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/GridContainer/E001" to="." method="_on_E001_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/GridContainer/E002" to="." method="_on_E002_pressed"]

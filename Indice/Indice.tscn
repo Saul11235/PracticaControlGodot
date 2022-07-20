@@ -19,62 +19,81 @@ margin_top = 40.0
 margin_right = -40.0
 margin_bottom = -40.0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+[node name="VBoxContainerFul" type="VBoxContainer" parent="MarginContainer"]
 margin_right = 944.0
 margin_bottom = 520.0
 
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainerFul"]
+margin_right = 944.0
+margin_bottom = 496.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainerFul/VBoxContainer"]
 margin_right = 944.0
 margin_bottom = 54.0
 size_flags_horizontal = 3
 custom_constants/margin_top = 20
 custom_constants/margin_bottom = 20
 
-[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainerFul/VBoxContainer/MarginContainer"]
 margin_top = 20.0
 margin_right = 944.0
 margin_bottom = 34.0
 text = "EJEMPLOS DE USO DE NODOS  DE CONTROL"
 align = 1
 
-[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainerFul/VBoxContainer"]
 margin_top = 58.0
 margin_right = 944.0
-margin_bottom = 520.0
+margin_bottom = 496.0
 size_flags_horizontal = 15
 size_flags_vertical = 15
 columns = 3
 
-[node name="E001" type="Button" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="E001" type="Button" parent="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer"]
 margin_right = 312.0
-margin_bottom = 229.0
+margin_bottom = 217.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "Ejemplo  001"
 
-[node name="E002" type="Button" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="E002" type="Button" parent="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer"]
 margin_left = 316.0
 margin_right = 628.0
-margin_bottom = 229.0
+margin_bottom = 217.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "Ejemplo  002"
 
-[node name="E003" type="Button" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="E003" type="Button" parent="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer"]
 margin_left = 632.0
 margin_right = 944.0
-margin_bottom = 229.0
+margin_bottom = 217.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "Ejemplo  003"
 
-[node name="E004" type="Button" parent="MarginContainer/VBoxContainer/GridContainer"]
-margin_top = 233.0
+[node name="E004" type="Button" parent="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer"]
+margin_top = 221.0
 margin_right = 312.0
-margin_bottom = 462.0
+margin_bottom = 438.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "Ejemplo  004"
 
-[connection signal="pressed" from="MarginContainer/VBoxContainer/GridContainer/E001" to="." method="_on_E001_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/GridContainer/E002" to="." method="_on_E002_pressed"]
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainerFul"]
+margin_top = 500.0
+margin_right = 944.0
+margin_bottom = 520.0
+
+[node name="Boton_Salir" type="Button" parent="MarginContainer/VBoxContainerFul/MarginContainer2"]
+margin_right = 944.0
+margin_bottom = 20.0
+text = "SALIR"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer/E001" to="." method="_on_E001_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer/E002" to="." method="_on_E002_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer/E003" to="." method="_on_E003_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainerFul/VBoxContainer/GridContainer/E004" to="." method="_on_E004_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainerFul/MarginContainer2/Boton_Salir" to="." method="_on_Boton_Salir_pressed"]

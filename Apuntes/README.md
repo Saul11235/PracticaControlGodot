@@ -18,8 +18,8 @@ los nodos hijos de control son los siguientes
 ***Clases de nodos hijo*** categorias de nodos, no vienen de un sub nodo
 
 [![BaseButton](https://img.shields.io/badge/-BaseButton-black)](BaseButton.md)
-[![Range](https://img.shields.io/badge/-BaseButton-black)](Range.md)
-[![Separator](https://img.shields.io/badge/-BaseButton-black)](Separator.md)
+[![Range](https://img.shields.io/badge/-Range-black)](Range.md)
+[![Separator](https://img.shields.io/badge/-Separator-black)](Separator.md)
 
 ***Nodos hijos*** nodos simples que descienden directamente del nodo Control
 los nodos hijos son

@@ -6,8 +6,7 @@ Por ESPM, programa testeado y ejecutado en Godot v3.4.4
 
 [![github profile](https://img.shields.io/badge/-github_profile-black)](https://github.com/Saul11235)
 [![repository](https://img.shields.io/badge/-repository-red)](https://github.com/Saul11235/PracticaControlGodot)
-[![Apuntes control Godot](https://img.shields.io/badge/-Apuntes_control_Godot_prolife-blue)](Apuntes/README.md)
-
+[![Apuntes control Godot](https://img.shields.io/badge/-Apuntes_control_Godot-blue)](Apuntes/README.md)
 
 # Arquitectura basica
 

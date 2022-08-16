@@ -1,3 +1,4 @@
+
 [![atras](https://img.shields.io/badge/-Atras-red)](../README.md)
 [![github profile](https://img.shields.io/badge/-github_profile-black)](https://github.com/Saul11235)
 [![repository](https://img.shields.io/badge/-repository-blue)](https://github.com/Saul11235/PracticaControlGodot)
@@ -9,14 +10,18 @@ los nodos hijos de control son los siguientes
 
 > *Nota:* probado en Godot v3.4.4
 
-***Nodos con subdivisiones***
-[![Popup](https://img.shields.io/badge/-Atras-green)](Popup/README.md)
-[![Container](https://img.shields.io/badge/-Atras-green)](Container/README.md)
+***Nodos con subdivisiones*** nodos que tiene multiples subdivisiones
 
-***Subdivisiones***
+[![Popup](https://img.shields.io/badge/-Popup-green)](Popup.md)
+[![Container](https://img.shields.io/badge/-Container-green)](Container.md)
+
+***Clases de nodos hijo*** categorias de nodos, no vienen de un sub nodo
+
+[![BaseButton](https://img.shields.io/badge/-BaseButton-black)](BaseButton.md)
 
 
-***Nodos hijos***
+***Nodos hijos*** nodos simples que descienden directamente del nodo Control
+los nodos hijos son
 
 
 

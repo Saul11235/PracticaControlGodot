@@ -12,13 +12,14 @@ los nodos hijos de control son los siguientes
 
 ***Nodos con subdivisiones*** nodos que tiene multiples subdivisiones
 
-[![Popup](https://img.shields.io/badge/-Popup-green)](Popup.md)
-[![Container](https://img.shields.io/badge/-Container-green)](Container.md)
+[![Popup](https://img.shields.io/badge/-Popup-blue)](Popup.md)
+[![Container](https://img.shields.io/badge/-Container-blue)](Container.md)
 
 ***Clases de nodos hijo*** categorias de nodos, no vienen de un sub nodo
 
 [![BaseButton](https://img.shields.io/badge/-BaseButton-black)](BaseButton.md)
-
+[![Range](https://img.shields.io/badge/-BaseButton-black)](Range.md)
+[![Separator](https://img.shields.io/badge/-BaseButton-black)](Separator.md)
 
 ***Nodos hijos*** nodos simples que descienden directamente del nodo Control
 los nodos hijos son

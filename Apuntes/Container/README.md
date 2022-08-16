@@ -2,7 +2,7 @@
 [![github profile](https://img.shields.io/badge/-github_profile-black)](https://github.com/Saul11235)
 [![repository](https://img.shields.io/badge/-repository-blue)](https://github.com/Saul11235/PracticaControlGodot)
 
-# Apuntes sobre nodos de control.
+# Nodos Container
 
 todos los nodos de interfaz, deben de ser hijos de un nodo control para funcionar
 los nodos hijos de control son los siguientes
@@ -10,8 +10,7 @@ los nodos hijos de control son los siguientes
 > *Nota:* probado en Godot v3.4.4
 
 ***Nodos con subdivisiones***
-[![Popup](https://img.shields.io/badge/-Atras-green)](Popup/README.md)
-[![Container](https://img.shields.io/badge/-Atras-green)](Container/README.md)
+
 
 ***Subdivisiones***
 
